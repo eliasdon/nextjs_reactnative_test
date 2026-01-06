@@ -1,0 +1,14 @@
+{
+  "name": "hybrid-next-rn-root",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=web",
+    "build": "npm run build --workspace=web",
+    "start": "npm run start --workspace=web"
+  },
+  "packageManager": "yarn@1.22.19"
+}

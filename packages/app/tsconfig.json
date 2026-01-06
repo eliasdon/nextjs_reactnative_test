@@ -1,0 +1,23 @@
+{
+    "extends": "../../tsconfig.json",
+    "compilerOptions": {
+        "jsx": "react-native",
+        "moduleSuffixes": [
+            ".web.tsx",
+            ".tsx",
+            ".web.ts",
+            ".ts",
+            ".web.js",
+            ".js"
+        ],
+        "types": [
+            "react",
+            "react-native",
+            "node"
+        ],
+        "typeRoots": [
+            "./node_modules/@types",
+            "../../node_modules/@types"
+        ]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "name": "web",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "next": "14.1.0",
+        "react": "18.2.0",
+        "react-dom": "18.2.0",
+        "react-native": "0.73.4",
+        "react-native-web": "0.19.10",
+        "framer-motion": "^11.0.3",
+        "lucide-react": "^0.330.0",
+        "app": "*"
+    },
+    "devDependencies": {
+        "@types/node": "^20",
+        "@types/react": "^18",
+        "@types/react-dom": "^18",
+        "typescript": "^5",
+        "eslint": "^8",
+        "eslint-config-next": "14.1.0"
+    }
+}
